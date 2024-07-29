@@ -1,0 +1,37 @@
+{
+  "name": "webpack-less-react-demo",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "start": "cross-env NODE_ENV=development webpack server --mode=development --config config/webpack.dev.js",
+    "build": "cross-env NODE_ENV=production webpack --mode=production --config config/webpack.prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jzhao520/webpack-less-react-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jzhao520/webpack-less-react-demo/issues"
+  },
+  "homepage": "https://github.com/Jzhao520/webpack-less-react-demo#readme",
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "css-loader": "^7.1.2",
+    "html-webpack-plugin": "^5.6.0",
+    "less": "^4.2.0",
+    "less-loader": "^12.2.0",
+    "mini-css-extract-plugin": "^2.9.0",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.93.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4",
+    "webpack-merge": "^6.0.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
